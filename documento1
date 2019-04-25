@@ -10,8 +10,7 @@ int leeCantidadElem()
         cout<<"Cantidad de pesos a ingresar: ";cin>>n;
             if(n<=0)
                 cout<<"...No seas payaso(a), ingresa una cantidad correcta: "<<endl;
-            if(n>MAX)
-               
+            if(
     }while(n<=0 || n>MAX);
     return n;
 }
