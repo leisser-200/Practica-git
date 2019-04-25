@@ -11,7 +11,7 @@ int leeCantidadElem()
             if(n<=0)
                 cout<<"...No seas payaso(a), ingresa una cantidad correcta: "<<endl;
             if(n>MAX)
-                cout<<"...La cantidad maxima permitida es "<<MAX<<" : "<<endl;
+               
     }while(n<=0 || n>MAX);
     return n;
 }
